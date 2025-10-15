@@ -14,7 +14,7 @@ def create_app():
     app.config.from_object('app.config.Config')
 
     # Enable CORS   
-   # CORS(app)
+    CORS(app)
 
     #db.init_app(app)
 
